@@ -1,0 +1,21 @@
+{
+  "name": "yahtzee",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node app.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node app.js"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "next": "9.1.3",
+    "react": "16.11.0",
+    "react-dom": "16.11.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2"
+  }
+}
